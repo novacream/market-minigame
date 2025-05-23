@@ -7,7 +7,7 @@ public class StockMarket{
 		if(!dataDir.exists()){
 			dataDir.mkdir();
 		}
-		
+		File data=new File("data\\stockmarket.dat");
 	}
 	//data should be saved for:
 		//all previous stock prices, their current stock, current target value, and time to target
